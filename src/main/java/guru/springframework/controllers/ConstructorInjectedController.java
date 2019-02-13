@@ -13,7 +13,7 @@ public class ConstructorInjectedController {
 
     private GreetingService greetingService;
 
-    @Autowired
+    //@Autowired
     public ConstructorInjectedController(GreetingService greetingService) {
         this.greetingService = greetingService;
     }
